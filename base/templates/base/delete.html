@@ -1,0 +1,9 @@
+<p>Tujhe Sach Mein Mujhe Apne Zindagi se Nikalna Hai.. Huh?<br>"{{task.body}}"</p>
+
+<a href="{% url 'tasks' %}" >Cancel</a>
+
+<form method="POST" action="">
+	{% csrf_token %}
+	<input type="submit" name="Confirm">
+</form>
+
